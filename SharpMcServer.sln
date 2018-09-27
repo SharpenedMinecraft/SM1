@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpenedMinecraft", "Main\SharpenedMinecraft.csproj", "{B8969585-6C10-4617-B925-4C4B3B0B73B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpenedMinecraft.Tests", "Tests\SharpenedMinecraft.Tests.csproj", "{414F4BD6-28C5-4180-AE7F-A583E1AC41EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpenedMinecraft.NetLib", "NetLib\SharpenedMinecraft.NetLib.csproj", "{63C10971-60EC-406B-B115-E719973692BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9C3D2B7E-6F65-4FFA-ACB0-330DA6463A33}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\dotnet-install.ps1 = Scripts\dotnet-install.ps1
+		Scripts\dotnet-install.sh = Scripts\dotnet-install.sh
+		Scripts\start.bat = Scripts\start.bat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{852BB9FF-1DD7-4EBC-B514-CF976EC344C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{F3575175-4C8E-4475-8264-4848ECC7A4DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismarineDataGenerator", "PrismarineDataGenerator\PrismarineDataGenerator.csproj", "{42401DD0-F9EF-41D0-80A3-E7499BB2C092}"
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8969585-6C10-4617-B925-4C4B3B0B73B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8969585-6C10-4617-B925-4C4B3B0B73B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8969585-6C10-4617-B925-4C4B3B0B73B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8969585-6C10-4617-B925-4C4B3B0B73B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414F4BD6-28C5-4180-AE7F-A583E1AC41EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414F4BD6-28C5-4180-AE7F-A583E1AC41EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414F4BD6-28C5-4180-AE7F-A583E1AC41EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414F4BD6-28C5-4180-AE7F-A583E1AC41EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C10971-60EC-406B-B115-E719973692BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C10971-60EC-406B-B115-E719973692BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C10971-60EC-406B-B115-E719973692BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C10971-60EC-406B-B115-E719973692BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852BB9FF-1DD7-4EBC-B514-CF976EC344C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852BB9FF-1DD7-4EBC-B514-CF976EC344C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852BB9FF-1DD7-4EBC-B514-CF976EC344C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852BB9FF-1DD7-4EBC-B514-CF976EC344C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42401DD0-F9EF-41D0-80A3-E7499BB2C092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42401DD0-F9EF-41D0-80A3-E7499BB2C092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42401DD0-F9EF-41D0-80A3-E7499BB2C092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42401DD0-F9EF-41D0-80A3-E7499BB2C092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAB815F2-2C4B-49C3-9B6C-53FF374B95B2} = {F3575175-4C8E-4475-8264-4848ECC7A4DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE66626-B912-45B4-A20C-900FA477C630}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

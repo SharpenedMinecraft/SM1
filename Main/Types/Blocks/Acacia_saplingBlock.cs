@@ -1,0 +1,35 @@
+
+using SharpenedMinecraft.Types.Items;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SharpenedMinecraft.Types.Blocks
+{
+    public class Acacia_saplingBlock : Block
+    {
+        public override string BlockId => "minecraft:acacia_sapling";
+        public override BlockState[] PossibleStates { get; }
+        public Acacia_saplingBlock() : base()
+        {
+
+            PossibleStates = new BlockState[]
+            {
+                new BlockState(29, new Dictionary<string, string>
+                { 
+            {"stage", "0"},
+ }),
+
+                new BlockState(30, new Dictionary<string, string>
+                { 
+            {"stage", "1"},
+ }),
+
+            };
+            State = PossibleStates[0];
+
+            Drops = new ItemStack[] { new Acacia_saplingItem() };
+
+        }
+    }
+}

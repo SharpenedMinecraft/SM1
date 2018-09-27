@@ -1,0 +1,21 @@
+
+using SharpenedMinecraft.Types.Blocks;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SharpenedMinecraft.Types.Items
+{
+    public class Pink_tulipItem : ItemStack
+    {
+        public override string Id => "minecraft:pink_tulip";
+        public override Int32 ProtocolId => 100;
+      
+        
+        public override void OnUse(World world, Vector3 Pos, Player player)
+        {
+            world.SetBlock(Pos, new Pink_tulipBlock(), player);
+        }
+
+    }
+}
