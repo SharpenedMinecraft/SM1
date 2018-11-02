@@ -1,7 +1,7 @@
 # MinecraftSharp
 
 A Hobby Project to Bring Minecraft to C#
-Currently Rewriting. this may or may not work. Use at your own risk. ;D
+Please Check [SM2](https://github.com/SharpenedMinecraft/SM2) its the Full Rewrite.
 
 With lots of help by #mcdevs on freenode (IRC)
 and [SharpMC](https://github.com/SharpMC/SharpMC)
